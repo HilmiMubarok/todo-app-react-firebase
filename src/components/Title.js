@@ -7,7 +7,15 @@ export default function Title() {
 				Todo App
 			</h5>
 			<p className="text-sm font-normal text-center text-gray-500 dark:text-gray-400">
-				Task Management App by HilmiMubarok. built with ReactJS, Firebase, and TailwindCSS
+				A Simple Task Management App by
+				<a
+					href="https://hilmimubarok.com"
+					className="ml-1 font-bold text-teal-500"
+					target="_blank"
+					rel="noreferrer"
+				>
+					HilmiMubarok
+				</a>. built with ReactJS, Firebase, and TailwindCSS
 			</p>
 		</React.Fragment>
 	);
