@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+.my-bg-light {
+	background-color: rgb(24, 24, 27);
+	background-image: radial-gradient(at 25% 20%, rgb(6, 182, 212) 0, transparent 42%),
+		radial-gradient(at 53% 76%, rgb(240, 253, 244) 0, transparent 24%),
+		radial-gradient(at 68% 21%, rgb(255, 247, 237) 0, transparent 73%),
+		radial-gradient(at 7% 90%, rgb(217, 70, 239) 0, transparent 84%),
+		radial-gradient(at 81% 9%, rgb(217, 249, 157) 0, transparent 99%),
+		radial-gradient(at 92% 17%, rgb(243, 244, 246) 0, transparent 85%);
+
+	background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-bg-dark {
+	background-color: rgb(19, 78, 74);
+	background-image: radial-gradient(at 39% 10%, rgb(209, 213, 219) 0, transparent 59%),
+		radial-gradient(at 46% 64%, rgb(15, 23, 42) 0, transparent 65%),
+		radial-gradient(at 100% 21%, rgb(64, 64, 64) 0, transparent 26%),
+		radial-gradient(at 2% 78%, rgb(21, 94, 117) 0, transparent 13%),
+		radial-gradient(at 19% 48%, rgb(39, 39, 42) 0, transparent 100%),
+		radial-gradient(at 73% 60%, rgb(49, 46, 129) 0, transparent 61%);
 }
