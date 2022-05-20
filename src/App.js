@@ -57,9 +57,14 @@ function App() {
 					))}
 				</ul>
 				<div className="text-center">
-					<span className="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400">
+					<a
+						href="https://github.com/HilmiMubarok/todo-app-react-firebase"
+						target="_blank"
+						className="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400"
+						rel="noreferrer"
+					>
 						Checkout on Github
-					</span>
+					</a>
 				</div>
 			</div>
 		</div>
